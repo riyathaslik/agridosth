@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
   Leaf, Upload, BookOpen, Cpu, MessageCircle, 
-  Phone, Info, Satellite, LogOut, Globe, Menu, X 
+  Info, Satellite, LogOut, Globe, Menu, X 
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
@@ -29,7 +29,6 @@ const Navbar: React.FC = () => {
   ];
 
   const secondaryItems = [
-    { path: '/helpline', icon: Phone, label: 'helpline' },
     { path: '/about', icon: Info, label: 'about' },
     { path: '/satellite', icon: Satellite, label: 'satellite' },
   ];

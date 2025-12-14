@@ -10,7 +10,6 @@ import UploadPage from "./pages/UploadPage";
 import CropGuide from "./pages/CropGuide";
 import IotMonitor from "./pages/IotMonitor";
 import Chatbot from "./pages/Chatbot";
-import Helpline from "./pages/Helpline";
 import About from "./pages/About";
 import SatelliteVision from "./pages/SatelliteVision";
 import Layout from "./components/layout/Layout";
@@ -36,7 +35,6 @@ const AppRoutes = () => {
       <Route path="/crop-guide" element={<ProtectedRoute><CropGuide /></ProtectedRoute>} />
       <Route path="/iot-monitor" element={<ProtectedRoute><IotMonitor /></ProtectedRoute>} />
       <Route path="/chatbot" element={<ProtectedRoute><Chatbot /></ProtectedRoute>} />
-      <Route path="/helpline" element={<ProtectedRoute><Helpline /></ProtectedRoute>} />
       <Route path="/about" element={<ProtectedRoute><About /></ProtectedRoute>} />
       <Route path="/satellite" element={<ProtectedRoute><SatelliteVision /></ProtectedRoute>} />
       <Route path="*" element={<NotFound />} />
